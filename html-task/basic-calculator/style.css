@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray; /* Background color for the body */
+  }
+  
+  .calculator {
+    width: 400px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black; /* Background color for the calculator */
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 70%; /* Adjusted width to make space for the "AC" button */
+    padding: 5px;
+    background-color: white; /* Background color for the input box */
+    color: black; /* Text color for the input box */
+    border: none;
+  }
+  
+  #clear {
+    background-color: green; /* Background color for the "AC" button (green) */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 25%; /* Adjusted width for the "AC" button */
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    width: 22%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: black; /* Default background color for buttons (black) */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ /* Background color for specific buttons */
+button[onclick*='+'] {
+    background-color: gray; /* Gray background color for the '+' button */
+  }
+  
+  button[onclick*='-'] {
+    background-color: gray; /* Gray background color for the '-' button */
+  }
+  
+  button[onclick*='/'] {
+    background-color: gray; /* Gray background color for the '/' button */
+  }
+  
+  button[onclick*='*'] {
+    background-color: gray; /* Gray background color for the '*' button */
+  }
+  
+  
+  button:hover {
+    background-color: #333; /* Background color for buttons on hover (darker gray) */
+  }
+  

@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(252, 252, 252, 0.02);
+  }
+  
+  .container {
+    background-color:#90C44E;
+    padding: 40PX;
+    border-radius: 20px;
+    width: 40vw;
+    text-align: center;
+  }
+  
+  form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  .survey-form {
+    background-color: white; 
+    padding: 20px;  
+    text-align: left;
+    
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 15px;
+    background-color:#90C44E;
+    
+  }
+  
