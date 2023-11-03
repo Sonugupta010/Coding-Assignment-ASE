@@ -1,5 +1,4 @@
 function reverseWordsInSentence(sentence) {
-    // Split the sentence into words
     const words = sentence.split(' ');
 
     // Reverse each word and store them in a new array
@@ -13,9 +12,7 @@ function reverseWordsInSentence(sentence) {
     return reversedSentence;
 }
 
-// Get user input
 const inputSentence = prompt("Enter a sentence:");
 const reversedSentence = reverseWordsInSentence(inputSentence);
 
-// Display the reversed sentence
 console.log("Reversed Sentence: " + reversedSentence);
